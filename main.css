@@ -1,10 +1,10 @@
 /* Top Naviagation */
-.top-navigation {
+body {
   position: absolute;
   width: 1440px;
   height: 72px;
-  left: 0;
-  top: 0;
+  left: 0px;
+  top: 0px;
 }
 
 /* Item Navigation */
@@ -153,6 +153,8 @@
   position: absolute;
   width: 170.17px;
   height: 20px;
+  background-image: url(images/social-media-icons.jpg);
+  background-repeat: no-repeat;
   left: 260px;
   top: 642px;
 }
@@ -162,6 +164,8 @@
   position: absolute;
   width: 1290.66px;
   height: 718.7px;
+  background-image: url(images/contact-form-background-shapes@2x.jpg);
+  background-repeat: no-repeat;
   left: 75.34px;
   top: 4358.09px;
 }
@@ -171,6 +175,8 @@
   position: absolute;
   width: 1397.4px;
   height: 721.46px;
+  background-image: url(images/Header-bg@2x.jpg);
+  background-repeat: no-repeat;
   left: 34.6px;
   top: 119px;
 }
