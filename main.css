@@ -129,9 +129,36 @@
   flex-grow: 0;
 }
 
+/* first heading in a section */
+.headline .first-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 /* section paragraph */
 .headline .second-text {
   width: 327px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.headline .second-text h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
