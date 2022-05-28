@@ -433,7 +433,7 @@
   flex-grow: 0;
 }
 
-.works .card-works-1 .block-1 .action-button p {
+.works .card-works-1 .block-1 .action-button span {
   width: 100px;
   height: 24px;
   font-family: 'Poppins';
