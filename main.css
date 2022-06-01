@@ -6,7 +6,6 @@ body {
   position: relative;
 }
 
-
 /* navigation-menu layout */
 .main-menu {
   position: absolute;
@@ -179,7 +178,7 @@ body {
 }
 
 /* social media lists */
-.headline .social-media-icons>li {
+.headline .social-media-icons > li {
   list-style: none;
 }
 
@@ -351,7 +350,7 @@ body {
   flex-grow: 0;
 }
 
-.works .card-works-1 .block-1 .language-tags>li {
+.works .card-works-1 .block-1 .language-tags > li {
   list-style: none;
 }
 
@@ -461,7 +460,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 24px;
+  padding: 0 24px;
   gap: 24px;
   position: absolute;
   width: 375px;
@@ -567,7 +566,7 @@ body {
   flex-grow: 0;
 }
 
-.about-myself .top .social-media .frame .social-media-icons>li {
+.about-myself .top .social-media .frame .social-media-icons > li {
   list-style: none;
 }
 
@@ -757,7 +756,7 @@ body {
   flex-grow: 0;
 }
 
-.about-myself .skill-list .frame-list .frame-2 .programming-languages>li {
+.about-myself .skill-list .frame-list .frame-2 .programming-languages > li {
   list-style: none;
 }
 
@@ -838,7 +837,7 @@ body {
   top: 4631px;
   width: 375px;
   height: 790px;
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-top-left-radius: 60px;
 }
 
@@ -855,7 +854,7 @@ body {
   margin-bottom: 50px;
 }
 
-.contact-list h1 {
+.contact-section .background-shapes .contact-list h1 {
   color: white;
   font-weight: 700;
   font-size: 40px;
@@ -864,7 +863,8 @@ body {
   margin-bottom: 0;
 }
 
-.contact-list p {
+/* stylelint-disable-next-line no-descending-specificity */
+.contact-section .background-shapes .contact-list p {
   text-align: center;
   padding: 0 20px;
   font-weight: 400;
