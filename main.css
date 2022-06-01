@@ -179,7 +179,7 @@ body {
 }
 
 /* social media lists */
-.headline .social-media-icons > li {
+.headline .social-media-icons>li {
   list-style: none;
 }
 
@@ -351,7 +351,7 @@ body {
   flex-grow: 0;
 }
 
-.works .card-works-1 .block-1 .language-tags > li {
+.works .card-works-1 .block-1 .language-tags>li {
   list-style: none;
 }
 
@@ -567,7 +567,7 @@ body {
   flex-grow: 0;
 }
 
-.about-myself .top .social-media .frame .social-media-icons > li {
+.about-myself .top .social-media .frame .social-media-icons>li {
   list-style: none;
 }
 
@@ -757,7 +757,7 @@ body {
   flex-grow: 0;
 }
 
-.about-myself .skill-list .frame-list .frame-2 .programming-languages > li {
+.about-myself .skill-list .frame-list .frame-2 .programming-languages>li {
   list-style: none;
 }
 
@@ -834,12 +834,12 @@ body {
 }
 
 .contact-section {
-position: absolute;
-top: 4631px;
-width: 375px;
-height: 790px;
-background-color: #6070FF;
-border-top-left-radius: 60px;
+  position: absolute;
+  top: 4631px;
+  width: 375px;
+  height: 790px;
+  background-color: #6070FF;
+  border-top-left-radius: 60px;
 }
 
 .contact-section .background-shapes {
