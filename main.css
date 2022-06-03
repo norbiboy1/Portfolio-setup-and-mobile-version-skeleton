@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-  height: 5410px;
-  width: 1440px;
   background: rgb(229, 229, 229);
   font-family: 'Poppins';
 }
@@ -11,7 +9,6 @@ body {
 .background {
   height: 718px;
   background: url(./images/mobile_menu_images/Header-background/Ellipse-3.png) 106% 26% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-4.png) 100% 14% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-7.png) 50% 17% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-11.png) 6% 20% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-6.png) 0% 15% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-4.png) 55% 87% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-12.png) 5% 85% no-repeat;
-  margin-bottom: 114px;
   background-color: #fff;
   border-bottom-left-radius: 60px;
 }
@@ -81,7 +78,6 @@ nav > a {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  min-width: 375px;
 }
 
 /* social media paragraph */
@@ -114,6 +110,7 @@ nav > a {
 .works {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: minmax(327px, 100%);
   align-items: center;
   padding: 114px 24px;
   row-gap: 88px;
@@ -122,42 +119,27 @@ nav > a {
 
 /* Card works 1 layout */
 .works .card-works-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: 16px;
-  box-sizing: border-box;
-  height: 580px;
-  background: #fff;
-  border-radius: 16px;
+ background-color: #fff;
+ padding: 16px;
+ border-radius: 16px;
 }
 
 /* Snapshoot portfolio 1 layout */
 .works .card-works-1 .snapshoot-portofolio-1 {
-  width: 295px;
-  height: 220px;
   border-radius: 8px;
 }
 
 /* Block 1 layout */
 .works .card-works-1 .block-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 12px;
 
 }
 
 /* Primary section */
-.works .card-works-1 .block-1 .primary-section {
+.primary-section {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0;
   gap: 12px;
-  height: 124px;
 }
 
 /* Project title */
@@ -176,15 +158,11 @@ nav > a {
 .works .card-works-1 .block-1 .primary-section .grid-content-frame {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  justify-items: baseline;
-  align-items: center;
   padding: 0;
-  gap: 12px;
   height: 32px;
 }
 
 .works .card-works-1 .block-1 .primary-section .grid-content-frame .client {
-  width: 55px;
   height: 16px;
   font-family: 'Poppins';
   font-style: normal;
@@ -209,7 +187,6 @@ nav > a {
 }
 
 .works .card-works-1 .block-1 .primary-section .grid-content-frame .year-label {
-  width: 29px;
   height: 16px;
   font-family: 'Poppins';
   font-style: normal;
@@ -223,7 +200,6 @@ nav > a {
 }
 
 .works .card-works-1 .block-1 .secondary-section {
-  width: 295px;
   margin: 0;
   font-family: 'Poppins';
   font-style: normal;
@@ -361,11 +337,7 @@ nav > a {
   align-items: center;
   padding: 0 24px;
   gap: 24px;
-  position: absolute;
-  width: 375px;
-  height: 1125.15px;
   background-color: white;
-  top: 3750px;
 }
 
 .about-myself .top {
@@ -503,63 +475,40 @@ nav > a {
   flex-grow: 0;
 }
 
-.about-myself .skill-list {
+.skill-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
-  width: 327px;
-  height: 464.15px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
-.about-myself .skill-list .frame-list {
+.skill-list .frame-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  width: 327px;
   height: 320.15px;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.about-myself .skill-list .frame-list .frame-2 {
-  width: 237px;
-  height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.about-myself .skill-list .frame-list .frame-2 .language-list {
-  height: 24px;
-  left: 12px;
-  right: 78px;
-  top: calc(50% - 24px / 2);
+.skill-list .frame-list .language-list {
+  display: flex;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   color: #000;
 }
-
-.about-myself .skill-list .frame-list .frame-2 .arrow-down {
+ 
+.skill-list .frame-list .arrow {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
-  position: absolute;
-  width: 40px;
   height: 40px;
-  right: 26px;
-  top: calc(50% - 130px);
   border-radius: 8px;
 }
 
