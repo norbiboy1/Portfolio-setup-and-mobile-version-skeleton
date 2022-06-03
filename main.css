@@ -5,12 +5,15 @@ body {
   height: 5410px;
   width: 1440px;
   background: rgb(229, 229, 229);
+  font-family: 'Poppins';
 }
 
 .background {
-  height: 916px;
+  height: 718px;
+  background: url(./images/mobile_menu_images/Header-background/Ellipse-3.png) 106% 26% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-4.png) 100% 14% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-7.png) 50% 17% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-11.png) 6% 20% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-6.png) 0% 15% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-4.png) 55% 87% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-12.png) 5% 85% no-repeat;
+  margin-bottom: 114px;
   background-color: #fff;
-  background: url(./images/mobile_menu_images/Header-background/Ellipse-3.png) 106% 26% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-4.png) 100% 14% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-7.png) 50% 17% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-11.png) 6% 20% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-6.png) 0% 15% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-4.png) 55% 75% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-12.png) 10% 71% no-repeat;
+  border-bottom-left-radius: 60px;
 }
 
 /* menu-container */
@@ -36,7 +39,6 @@ body {
 .main-menu .menu-container .logo-frame a {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins';
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -115,11 +117,6 @@ nav > a {
   align-items: center;
   padding: 114px 24px;
   row-gap: 88px;
-  position: absolute;
-  width: 375px;
-  height: 2788px;
-  left: 0;
-  top: 718px;
   background: #e5e5e5;
 }
 
@@ -131,14 +128,9 @@ nav > a {
   gap: 12px;
   padding: 16px;
   box-sizing: border-box;
-  width: 327px;
   height: 580px;
   background: #fff;
-  border: 1px solid #dfe1e6;
   border-radius: 16px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 /* Snapshoot portfolio 1 layout */
@@ -146,9 +138,6 @@ nav > a {
   width: 295px;
   height: 220px;
   border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 /* Block 1 layout */
@@ -158,11 +147,7 @@ nav > a {
   align-items: flex-start;
   padding: 0;
   gap: 12px;
-  width: 295px;
-  height: 288px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+
 }
 
 /* Primary section */
@@ -172,17 +157,12 @@ nav > a {
   align-items: flex-start;
   padding: 0;
   gap: 12px;
-  width: 295px;
   height: 124px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 /* Project title */
 .works .card-works-1 .block-1 .primary-section .project-title {
   margin: 0;
-  width: 295px;
   height: 80px;
   font-family: 'Poppins';
   font-style: normal;
@@ -190,9 +170,6 @@ nav > a {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 /* Grid container frame */
@@ -203,7 +180,6 @@ nav > a {
   align-items: center;
   padding: 0;
   gap: 12px;
-  width: 236px;
   height: 32px;
 }
 
@@ -222,7 +198,7 @@ nav > a {
 }
 
 .works .card-works-1 .block-1 .primary-section .grid-content-frame .role {
-  width: 100px;
+
   height: 16px;
   font-family: 'Poppins';
   font-style: normal;
@@ -230,9 +206,6 @@ nav > a {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .works .card-works-1 .block-1 .primary-section .grid-content-frame .year-label {
