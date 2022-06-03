@@ -4,11 +4,13 @@
 body {
   height: 5410px;
   width: 1440px;
+  background: rgb(229, 229, 229);
 }
 
 .background {
+  height: 916px;
   background-color: #fff;
-  background-image: url(./images/mobile_menu_images/Header-background/Ellipse-3.png) 100% 20% no-repeat;
+  background: url(./images/mobile_menu_images/Header-background/Ellipse-3.png) 106% 26% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-4.png) 100% 14% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-7.png) 50% 17% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-11.png) 6% 20% no-repeat, url(./images/mobile_menu_images/Header-background/Rectangle-6.png) 0% 15% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-4.png) 55% 75% no-repeat, url(./images/mobile_menu_images/Header-background/Ellipse-12.png) 10% 71% no-repeat;
 }
 
 /* menu-container */
@@ -27,6 +29,7 @@ body {
   padding: 10px 12px;
   width: 100px;
   height: 40px;
+  margin-top: 58px;
 }
 
 /* logo-style */
@@ -59,7 +62,7 @@ nav > a {
 
 /* first heading in a section */
 .section-text h1 {
-  margin: 0px;
+  margin-top: 128px;
   padding: 0px 24px;
   font-family: 'Poppins';
   font-weight: 700;
