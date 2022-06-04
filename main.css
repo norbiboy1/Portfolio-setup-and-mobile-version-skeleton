@@ -307,6 +307,8 @@ nav {
   top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  position: relative;
+  overflow: hidden;
 }
 
 /* About Section */
@@ -354,15 +356,6 @@ nav {
   line-height: 24px;
   color: #000;
 }
-
-/*
-.programming-languages {
-  display: flex;
-  flex-direction: column;
-  height: 248.15px;
-  border-radius: 8px;
-}
-*/
 
 .programming-languages .lang {
   gap: 10px;
@@ -477,6 +470,32 @@ hr {
   width: 134px;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+/* Button Transition */
+button {
+  position: relative;
+  overflow: hidden;
+}
+
+button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0.5ms
 }
 
 /* This is for the nav tag */
