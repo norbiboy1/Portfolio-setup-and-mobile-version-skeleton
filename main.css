@@ -19,17 +19,13 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding-top: 58px;
 }
 
 /* logo */
-.main-menu .menu-container .logo-frame {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  width: 100px;
-  height: 40px;
-  margin-top: 58px;
+.logo-frame {
+  text-decoration: none;
+  color: #6070FF;
 }
 
 /* logo-style */
