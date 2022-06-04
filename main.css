@@ -492,6 +492,36 @@ hr {
   }
 }
 
+body {
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    background-color: white;
+    color: white;
+  }
+  to {
+    background-color: blue;
+    color: red;
+  }
+}
+
+.background, .card-works-1 {
+  animation: color 5s infinite;
+}
+
+@keyframes color {
+  from {
+    background-color: white;
+    color: black;
+  }
+  to {
+    background-color: #2230d2;
+    color: white;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .background {
     padding: 0 142px;
