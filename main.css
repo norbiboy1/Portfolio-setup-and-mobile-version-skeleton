@@ -355,19 +355,18 @@ nav {
   color: #000;
 }
 
+/*
 .programming-languages {
   display: flex;
   flex-direction: column;
   height: 248.15px;
   border-radius: 8px;
 }
+*/
 
 .programming-languages .lang {
-  display: flex;
-  align-items: center;
   gap: 10px;
   margin-bottom: 12px;
-  height: 66.72px;
   background: #f7f7f9;
 }
 
@@ -487,8 +486,78 @@ hr {
     color: #6070ff;
   }
 
-  nav {
+  .nav-items {
     display: none;
     position: absolute;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .background {
+    padding: 0 142px;
+  }
+
+  .card-works-1 {
+    width: 90%;
+    display: flex;
+    height: 496px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .snapshoot-portofolio-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 544px;
+  }
+
+  .block-1 {
+    padding-top: 48px;
+    padding-left: 46px;
+  }
+
+  .row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .about-myself {
+    display: flex;
+    padding-bottom: 134px;
+  }
+
+  .text-icons-wrapper {
+    padding-left: 142px;
+  }
+
+  .programming-languages {
+    display: flex;
+    padding: 0;
+  }
+
+  .lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 120px;
+    margin-left: 12px;
+  }
+
+  .skill-list {
+    width: 684px;
+    height: 360px;
+    padding-right: 42px;
+  }
+
+  .contact-section {
+    padding: 0 280px;
+  }
+
+  .contact-section button {
+    margin: 0 auto;
   }
 }
