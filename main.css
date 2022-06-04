@@ -381,10 +381,6 @@ nav > a {
 
 /* Contact Section */
 .contact-section {
-  position: absolute;
-  top: 4631px;
-  width: 375px;
-  height: 790px;
   background-color: #6070ff;
   border-top-left-radius: 60px;
 }
