@@ -536,8 +536,14 @@ hr {
 
   to {
     background-color: #85b4ff;
+    background-color: brown;
     color: white;
   }
+}
+
+.background,
+.works .card-works-1 {
+  animation: color 5s infinite;
 }
 
 @media screen and (min-width: 750px) {
