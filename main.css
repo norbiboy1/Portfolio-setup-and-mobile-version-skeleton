@@ -4,6 +4,7 @@
 body {
   background: rgb(229, 229, 229);
   font-family: 'Poppins';
+  animation: mymove 5s 1;
 }
 
 .background {
@@ -472,12 +473,12 @@ hr {
 }
 
 /* Button Transition */
-button {
+.about-myself form button {
   position: relative;
   overflow: hidden;
 }
 
-button::after {
+.about-myself form button::after {
   content: "";
   background: #90ee90;
   display: block;
@@ -490,7 +491,7 @@ button::after {
   transition: all 0.8s;
 }
 
-button:active::after {
+.about-myself form button:active::after {
   padding: 0;
   margin: 0;
   opacity: 1;
@@ -510,10 +511,6 @@ button:active::after {
   }
 }
 
-body {
-  animation: mymove 5s 1;
-}
-
 @keyframes mymove {
   from {
     background-color: white;
@@ -527,7 +524,7 @@ body {
 }
 
 .background,
-.card-works-1 {
+.works .card-works-1 {
   animation: color 5s 1;
 }
 
