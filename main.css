@@ -4,6 +4,7 @@
 body {
   background: rgb(229, 229, 229);
   font-family: 'Poppins';
+  animation: mymove 5s infinite;
 }
 
 .background {
@@ -302,11 +303,12 @@ nav {
   gap: 10px;
   width: 124px;
   height: 48px;
-  position: initial;
   left: 0;
   top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  position: relative;
+  overflow: hidden;
 }
 
 /* About Section */
@@ -354,15 +356,6 @@ nav {
   line-height: 24px;
   color: #000;
 }
-
-/*
-.programming-languages {
-  display: flex;
-  flex-direction: column;
-  height: 248.15px;
-  border-radius: 8px;
-}
-*/
 
 .programming-languages .lang {
   gap: 10px;
@@ -479,6 +472,32 @@ hr {
   margin-bottom: 10px;
 }
 
+/* Button Transition */
+.about-myself form button {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-myself form button::after {
+  content: "";
+  background: #90ee90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.about-myself form button:active::after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0.5ms;
+}
+
 /* This is for the nav tag */
 @media (max-width: 768px) {
   .hamburger-icon {
@@ -490,6 +509,35 @@ hr {
     display: none;
     position: absolute;
   }
+}
+
+@keyframes mymove {
+  from {
+    background-color: white;
+    color: white;
+  }
+
+  to {
+    background-color: blue;
+    color: red;
+  }
+}
+
+@keyframes color {
+  from {
+    background-color: white;
+    color: black;
+  }
+
+  to {
+    background-color: brown;
+    color: white;
+  }
+}
+
+.background,
+.works .card-works-1 {
+  animation: color 5s infinite;
 }
 
 @media screen and (min-width: 750px) {
