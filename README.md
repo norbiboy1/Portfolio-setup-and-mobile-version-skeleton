@@ -1,6 +1,8 @@
 # Portfolio-setup-and-mobile-version-skeleton
 Make a website from scratch with HTML and CSS ONLY!
 
+## Link to my GitHub Pages: https://norbiboy1.github.io/Portfolio-setup-and-mobile-version-skeleton/main
+
 ## Built With
 Major languages: HTML5 & CSS3
 Technologies used: Flexbox
