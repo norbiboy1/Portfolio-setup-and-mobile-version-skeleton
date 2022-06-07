@@ -4,7 +4,7 @@
 body {
   background: rgb(229, 229, 229);
   font-family: 'Poppins';
-  animation: mymove 5s infinite;
+  animation: mymove 5s 1;
 }
 
 .background {
@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: black;
 }
 
 .background .main-menu .menu-container nav > a {
@@ -518,9 +518,14 @@ hr {
   }
 
   to {
-    background-color: blue;
+    background-color: #85b4ff;
     color: red;
   }
+}
+
+.background,
+.works .card-works-1 {
+  animation: color 5s 1;
 }
 
 @keyframes color {
@@ -530,6 +535,7 @@ hr {
   }
 
   to {
+    background-color: #85b4ff;
     background-color: brown;
     color: white;
   }
