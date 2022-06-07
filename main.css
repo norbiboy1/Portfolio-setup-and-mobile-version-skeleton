@@ -511,7 +511,7 @@ button:active::after {
 }
 
 body {
-  animation: mymove 5s infinite;
+  animation: mymove 5s 1;
 }
 
 @keyframes mymove {
@@ -528,7 +528,7 @@ body {
 
 .background,
 .card-works-1 {
-  animation: color 5s infinite;
+  animation: color 5s 1;
 }
 
 @keyframes color {
@@ -538,7 +538,7 @@ body {
   }
 
   to {
-    background-color: #2230d2;
+    background-color: #85b4ff;
     color: white;
   }
 }
