@@ -48,11 +48,16 @@ body {
   color: #344563;
 }
 
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 32px;
+}
+
+.nav-items {
+  display: flex;
+
 }
 
 .hamburger-icon {
@@ -60,6 +65,7 @@ nav {
   text-decoration: none;
   padding: 5px;
 }
+
 
 /* section paragraph layout */
 .section-text {
@@ -504,11 +510,16 @@ hr {
     display: inline;
     color: #6070ff;
   }
-
-  .nav-items {
-    display: none;
-    position: absolute;
+   
+  nav {
+    width: 375px;
+    height: 812px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(96, 112, 255,0.8);
+    flex-direction: column;
   }
+
 }
 
 @keyframes mymove {
